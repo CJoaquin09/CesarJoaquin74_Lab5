@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+}
+
+li {
+    list-style: none;
+}
+
+#check {
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#check:hover {
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#delete {
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#delete:hover {
+    background-color: red;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new {
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
